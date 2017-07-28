@@ -62,8 +62,7 @@ header.mui-bar .mui-search input[type=search]::-webkit-input-placeholder {
 	margin-left: -140px;
 }
 /* 首页头部样式结束 */
-.mui-bar~.mui-content .mui-fullscreen {
-	top: 44px;
+.mui-bar~.mui-content{
 	bottom: 50px;
 	height: auto;
 }
@@ -126,29 +125,29 @@ header.mui-bar .mui-search input[type=search]::-webkit-input-placeholder {
 	background-color: #efeff4;
 }
 /* 首页上下加载样式结束 */
-#index .mui-segmented-control.mui-scroll-wrapper .mui-scroll{ 
+#pullrefresh .mui-segmented-control.mui-scroll-wrapper .mui-scroll{ 
 	width: 100%;	
 }
-#index .mui-segmented-control.mui-scroll-wrapper .mui-scroll>a{
+#pullrefresh .mui-segmented-control.mui-scroll-wrapper .mui-scroll>a{
 	width: 33.33%;
 }
-#index .mui-ios .mui-table-view-cell{
-	height: 100px;
-}
-#index .mui-table-view .mui-media-object{
+#pullrefresh .mui-table-view .mui-media-object{
 	max-width: 80px;
     height: 80px;
 }
-#index .mui-table-view-cell p{
+#pullrefresh .mui-table-view-cell p{
 	margin-top: 10px;
 }
-#index .mui-table-view-cell p>span{
+#pullrefresh .mui-table-view-cell p>span{
 	color:#fe9400;
 	font-size: 18px;
 	padding-right: 10px;
 }
-#index .mui-table-view-cell p>i{
+#pullrefresh .mui-table-view-cell p>i{
 	font-style: normal;
+}
+#pullrefresh .mui-table-view-chevron .mui-table-view-cell{
+	padding-right: 45px;
 }
 .mui-bar-tab .mui-tab-item.mui-active{
 	color: #fe9400;

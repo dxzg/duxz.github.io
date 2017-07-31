@@ -1,0 +1,142 @@
+
+	Crystal Template 
+	http://www.templatemo.com/tm-437-crystal
+*/
+
+body
+  {
+    background: #FFFFFF;
+    color: #555555;
+    font-family: 'Open Sans', sans-serif;
+	  line-height: 24px;
+    position: relative;
+  }
+  
+.blue {
+	color: #06C;
+}
+
+.green {
+	color: #090;
+}
+
+.orange {
+	color: #C60;
+}
+
+.white {
+	color: #FFF;
+}
+
+/* start page container */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }  
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }  
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+/* nav头部开始 */
+.navbar-default{ background: #FFFFFF; border: none;box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08); margin: 0 !important;}
+.navbar-header{ height: 65px; }
+.navbar-default .navbar-brand{ padding: 0; margin:0;}
+.navbar-default .logo{ margin-top: 5px; }
+.navbar-default .navbar-nav li a { line-height: 35px; font-weight: bold; }
+.navbar-default .navbar-toggle{ margin-top: 15px; }
+.navbar-default .navbar-toggle .icon-bar {background-color: #ee9900; color: #FFFFFF;}
+.navbar-default .navbar-toggle:hover .icon-bar {background-color: #ee9900;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color: #ee9900;background-color: transparent;
+}
+/* nav头部结束 */
+
+/* home开始 */
+#home{ padding-top:65px; }
+#home .row img{ width: 100%; height: auto; }
+#home .row .col-md-3 p{ font-size: 16px; color: #fff; }
+#home .row .col-xs-4 p{ font-size: 12px; color: #fff; }
+/* home结束 */
+
+/* about开始 */
+#about{ padding:60px 0px; }
+#about h3{ font-weight: bold; padding-bottom: 10px;}
+#about p{ text-indent: 2em; }
+#about .col-md-5 .col-md-6{ padding: 4px; }
+/* about结束 */
+
+/* team开始 */
+#team{ padding: 60px 0px; background: #404040; }
+#team h3{ padding-bottom: 30px; color:#fff; font-weight: bold; }
+#team .team_thumb{ margin-top: 20px; overflow: hidden; position: relative; }
+#team .team_thumb img { width: 100%; height: auto;}
+#team .team_description{ color: #fff; background: #303030; padding: 10px; }
+#team .team_thumb .team_overlay {
+    background: #FFFFFF;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    position: absolute;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+#team .team_thumb .team_overlay:hover{ opacity: 0.8; cursor: pointer; }
+#team .team_thumb .team_overlay>p{ text-align: center; font-size: 14px; color: #ee9900; line-height: 24px; position: absolute; top: 45%; bottom: 0px;  left: 0; right: 0;}
+/* team结束 */
+
+/* service开始 */
+#service{ padding: 60px 0px; }
+#service h3{ padding-bottom: 30px; font-weight: bold; }
+#service .description{ margin-bottom: 30px; }
+#service .media .media-heading { color: #ee9900; font-weight: bold; padding: 0 0 10px 0; margin: 0 0 10px 0; }
+#service .col-md-4{  margin-top:10px; float: left; }
+/* service结束 */
+
+/* education开始 */
+#education{ padding: 60px 0px; background: #404040; }
+#education h3{ padding-bottom: 30px; font-weight: bold; color:#fff; }
+/* education结束 */
+
+/* honor开始 */
+#honor{ padding: 60px 0px; }
+#honor h3{ padding-bottom: 30px; font-weight: bold; }
+#honor .row{ padding-top: 20px; }
+#honor .col-md-2,#honor .col-md-3{ padding: 6px;}
+/* honor结束 */
+
+/* contact开始 */
+#contact{ padding: 60px 0px; background: #404040;}
+#contact h3{ padding-bottom: 30px; font-weight: bold; color:#fff; }
+#contact input { height: 50px; }
+#contact textarea { height: 120px; }
+#contact .form-control{ background: #fff; border: none; border-radius: 2px; box-shadow: none;color: #404040; margin: 10px 0 10px 0; opacity: 0.8; }
+#contact input[type="submit"] {
+    background: #fff;
+    border: none;
+    color: #ee9900;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    margin: 10px 0 40px 0;
+}
+#contact input[type="submit"]:hover{
+  background: #ee9900;
+  color:#fff;
+}
+/* contact结束 */
+
+/* 地图部分开始 */
+#map-canvas{ border: none; width: 100%; height: 400px; margin: 0 0 40px 0; }
+/* 地图部分结束 */
+
+/* 底部开始 */
+#footer{ background-color: #404040; color: #fff; padding: 25px; }
+/* 底部结束 

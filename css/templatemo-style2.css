@@ -1,0 +1,105 @@
+body
+  {
+    background: #FFFFFF;
+    color: #555555;
+    font-family: '微软雅黑','Open Sans', sans-serif;
+	  line-height: 24px;
+    position: relative;
+  }
+
+/* start page container */
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }  
+}
+@media (min-width: 992px) {
+  .container {
+    width: 900px;
+  }  
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+/* nav头部开始 */
+.navbar-default{ background: rgba(30,30,30,0.4); border: none;box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08); margin: 0 !important;}
+@media (min-width: 768px){
+  .navbar>.container .navbar-brand{ margin-left: 114px; }
+}
+.navbar-header{ height: 74px; }
+.navbar-default .navbar-brand{ padding: 0 0 0 10px; margin:0; line-height: 74px; color:#fff; font-size: 26px;}
+.navbar-default .navbar-header>a:focus,.navbar-default .navbar-header>a:hover{ color: #ee9900; }
+.navbar-default .navbar-nav li a { line-height: 44px; }
+.navbar-default .navbar-toggle{ margin-top: 15px; }
+.navbar-default .navbar-toggle .icon-bar {background-color: #ee9900; color: #FFFFFF;}
+.navbar-default .navbar-toggle:hover .icon-bar {background-color: #ee9900;}
+.navbar-default .navbar-nav>li>a{ color:#fff; }
+.navbar-default .navbar-nav>li>a:hover{ color:#ee9900; }
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+  color: #ee9900; background-color: transparent;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{ color:#ee9900; }
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{ border-color: #000; }
+/* nav头部结束 */
+
+/* home开始 */
+#home{ overflow: hidden; }
+#home .row img{ width: 100%; }
+#home .row .col-md-3 p{ font-size: 16px; color: #fff; }
+#home .row .col-xs-4 p{ font-size: 12px; color: #fff; }
+/* home结束 */
+
+/* about开始 */
+#about{ padding:74px 0px 40px 0px; margin-top: -74px;}
+#about h3{ padding-bottom: 30px; margin-top: 40px; position: relative; }
+#about h3>i{ width: 50px; height: 50px; position: absolute; left: 110px; top:-10px; background-image: url('../images/icon.png'); background-repeat: no-repeat; background-position: right; background-size: 100% 100%;}
+#about h4{ margin: 30px 0 20px 0; padding-left: 25px; background-image: url('../images/triangle.png'); background-repeat: no-repeat; background-size: 14px 14px; background-position: 3px; }
+#about p{ text-indent: 2em; }
+#about .col-md-5 .col-md-6{ padding: 4px; }
+/* about结束 */
+
+/* partner开始 */
+#partner{ padding:74px 0px 40px 0px; margin-top: -74px; }
+#partner h3{ padding-bottom: 30px; margin-top: 40px; position: relative;}
+#partner h3>i{ width: 50px; height: 50px; position: absolute; left: 110px; top:-10px; background-image: url('../images/icon.png'); background-repeat: no-repeat; background-position: right; background-size: 100% 100%;}
+#partner .partner_thumb img{ width: 350px; height: 154px; }
+#partner .partner_thumb p>a{ line-height: 40px; text-decoration: underline;}
+/* partner结束 */
+
+/* 二维码开始 */
+#erwei{ padding:74px 0px 40px 0px; margin-top: -74px; }
+#erwei h3{ padding-bottom: 30px; margin-top: 40px; position: relative; }
+#erwei h3>i{ width: 50px; height: 50px; position: absolute; left: 90px; top:-10px; background-image: url('../images/icon.png'); background-repeat: no-repeat; background-position: right; background-size: 100% 100%;}
+/* 二维码结束 */
+
+/* news开始 */
+#news{ padding:74px 0px 40px 0px; margin-top: -74px; }
+#news h3{ padding-bottom: 30px; margin-top: 40px; position: relative;}
+#news h3>i{ width: 50px; height: 50px; position: absolute; left: 110px; top:-10px; background-image: url('../images/icon.png'); background-repeat: no-repeat; background-position: right; background-size: 100% 100%;}
+#news h4{ margin-bottom: 0px; color:#69b9ee;}
+#news .news-box{ border-bottom: 1px solid #eee; }
+#news .news-box p{ margin-bottom: 0px; }
+#news .news-box p span{ margin-right: 20px; color:#999; }
+#news .news-box p a{ color: #69b9ee; line-height: 30px; display: inline-block; padding-bottom: 10px;}
+/* news结束 */
+
+/* contact开始 */
+#contact{ padding:74px 0px 40px 0px; margin-top: -74px; background: #000; color:#fff;}
+#contact h3{ padding-bottom: 30px; margin-top: 40px; }
+
+/* contact结束 */
+
+/* 地图部分开始 */
+#map-canvas{ border: none; width: 100%; height: 200px; margin: 0 0 40px 0; }
+/* 地图部分结束 */
+
+/* 底部开始 */
+#footer{ background-color: #000; color: #fff; padding:0 0 25px 0; }
+/* 底部结束 
+
+/* 切分图片开始 */
+#qiefeng{ overflow: hidden; }
+#qiefeng>div{ width: 100%; padding: 0px;  }
+/* 切分图片结束 */
